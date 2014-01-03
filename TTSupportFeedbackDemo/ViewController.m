@@ -56,7 +56,7 @@
 	NSString *sheetTitle = NSLocalizedStringFromTable(@"How do you feel about", @"TTSupportFeedBack", @"How do you feel about (App Name - auto inserted)");
 	NSString *actionSheetTitle = [NSString stringWithFormat:@"%@ %@",sheetTitle, [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"]];
 	NSString *happy = NSLocalizedStringFromTable(@"Happy", @"TTSupportFeedBack", @"Happy");
-	NSString *confussed = NSLocalizedStringFromTable(@"Confussed", @"TTSupportFeedBack", @"Confussed");
+	NSString *confussed = NSLocalizedStringFromTable(@"Confused", @"TTSupportFeedBack", @"Confused");
 	NSString *unhappy = NSLocalizedStringFromTable(@"Unhappy", @"TTSupportFeedBack", @"Unhappy");
 	NSString *cancelTitle = NSLocalizedStringFromTable(@"Cancel", @"TTSupportFeedBack", @"Cancel");
 	UIActionSheet *actionSheet = [[UIActionSheet alloc]
