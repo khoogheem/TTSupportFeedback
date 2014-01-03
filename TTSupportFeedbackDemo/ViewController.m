@@ -86,7 +86,7 @@
 			break;
 		case 1:
 			//Confussed
-			nvc = [[UINavigationController alloc]initWithRootViewController:[[TTSupportFeedBack alloc] initWithSupportStyle:kSupportStyleConfussed]];
+			nvc = [[UINavigationController alloc]initWithRootViewController:[[TTSupportFeedBack alloc] initWithSupportStyle:kSupportStyleConfused]];
 			break;
 		case 2:
 			//Unhappy
@@ -108,7 +108,6 @@
 		[self presentViewController:nvc animated:TRUE completion:nil];
 		
 	}
-	
 	
 }
 

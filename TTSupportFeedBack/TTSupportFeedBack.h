@@ -33,7 +33,7 @@ typedef NS_OPTIONS(NSUInteger, FeedBackOptions) {
 
 typedef NS_ENUM(NSInteger, SupportStyle){
     kSupportStyleHappy		= 1,
-    kSupportStyleConfussed,
+    kSupportStyleConfused,
 	kSupportStyleUnHappy,
 };
 

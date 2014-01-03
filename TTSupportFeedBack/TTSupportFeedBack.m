@@ -113,7 +113,7 @@ typedef NS_ENUM(NSInteger, SupportSections){
 			_headerMsg = [TTSupportFeedBack defaultHappyHeader];
 			_sections = 2;
 			self.cellItems = @[self.upperCellItems, self.socialCellItems];
-		}else if (style == kSupportStyleConfussed) {
+		}else if (style == kSupportStyleConfused) {
 			_headerMsg = [TTSupportFeedBack defaultConfusedHeader];
 			self.cellItems = @[self.upperCellItems];
 		}else if (style == kSupportStyleUnHappy){
@@ -376,7 +376,7 @@ typedef NS_ENUM(NSInteger, SupportSections){
 			[result addObject:[self contactCellInfo]];
 		}
 		
-		if (_supportStyle == kSupportStyleConfussed) {
+		if (_supportStyle == kSupportStyleConfused) {
 			[result addObject:[self userGuideCellInfo]];
 			[result addObject:[self contactCellInfo]];
 		}
