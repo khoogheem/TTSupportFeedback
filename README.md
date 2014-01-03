@@ -5,6 +5,8 @@ A Support System inspired by the Ember application.
 
 Can be presented by a UIActionSheet to ask the user how they feel about the application.  Based on the users response will show different screens with options on how to best contact you.
 
+iOS Version: 6.0+, ARC enabled
+
 Supports the ability to:
 Contact via e-mail
 Access a User Guide
