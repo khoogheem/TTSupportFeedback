@@ -10,7 +10,9 @@ Contact via e-mail
 Access a User Guide
 Share on Twitter/Facebook/Weibo
 
-How to use:
+![](https://raw.github.com/khoogheem/TTSupportFeedback/master/Screenshots/ActionSheet.png)
+
+### How to use:
 
 Using Default Styles: (Happy, Unhappy, Confused)
 
@@ -19,8 +21,11 @@ svc.socialMsg = @"This is the best ever";
 
 [self presentViewController: [[UINavigationController alloc]initWithRootViewController:svc] animated:TRUE completion:nil];
 
+![](https://raw.github.com/khoogheem/TTSupportFeedback/master/Screenshots/SupportOptions.png)
+
 Use your own Header Messages:
 UINavigationController *nvc = [[UINavigationController alloc]initWithRootViewController:[[TTSupportFeedBack alloc] initWithFeedBackOptions:kFeedbackSupportGuide headerMsg:@"Why do you hate our App So Much???"]];
 [self presentViewController:nvc animated:TRUE completion:nil];
 
 
+![](https://raw.github.com/khoogheem/TTSupportFeedback/master/Screenshots/FeedBackScreen.png)
